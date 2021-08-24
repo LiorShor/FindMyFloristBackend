@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMyFloristBackend", "FindMyFloristBackend\FindMyFloristBackend.csproj", "{AA10B26F-EA00-43B7-A9DB-FAE5F7231EC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access Layer Contracts", "Data Access Layer Contracts", "{5D4B2B84-CF12-4EC5-87FE-2FBB063B19EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALContracts", "DAL Contracts\DALContracts.csproj", "{31731B07-2044-455A-B5E2-48FC9A15A2D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{9A86D319-30D6-4037-84A3-F685ACC4F451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Config", "Config\Config.csproj", "{91794CBE-CCDB-43E1-BE04-9DDB76CF0F5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfraDAL", "InfraDAL\InfraDAL.csproj", "{4808CC0E-C07D-4604-8950-E97AD7F08334}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA10B26F-EA00-43B7-A9DB-FAE5F7231EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA10B26F-EA00-43B7-A9DB-FAE5F7231EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA10B26F-EA00-43B7-A9DB-FAE5F7231EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA10B26F-EA00-43B7-A9DB-FAE5F7231EC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31731B07-2044-455A-B5E2-48FC9A15A2D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31731B07-2044-455A-B5E2-48FC9A15A2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31731B07-2044-455A-B5E2-48FC9A15A2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31731B07-2044-455A-B5E2-48FC9A15A2D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91794CBE-CCDB-43E1-BE04-9DDB76CF0F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91794CBE-CCDB-43E1-BE04-9DDB76CF0F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91794CBE-CCDB-43E1-BE04-9DDB76CF0F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91794CBE-CCDB-43E1-BE04-9DDB76CF0F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4808CC0E-C07D-4604-8950-E97AD7F08334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4808CC0E-C07D-4604-8950-E97AD7F08334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4808CC0E-C07D-4604-8950-E97AD7F08334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4808CC0E-C07D-4604-8950-E97AD7F08334}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31731B07-2044-455A-B5E2-48FC9A15A2D3} = {5D4B2B84-CF12-4EC5-87FE-2FBB063B19EF}
+		{91794CBE-CCDB-43E1-BE04-9DDB76CF0F5B} = {9A86D319-30D6-4037-84A3-F685ACC4F451}
+		{4808CC0E-C07D-4604-8950-E97AD7F08334} = {5D4B2B84-CF12-4EC5-87FE-2FBB063B19EF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68CEB3EF-858C-4B87-BC3C-E1B0716BAF06}
+	EndGlobalSection
+EndGlobal
