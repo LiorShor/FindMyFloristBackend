@@ -1,16 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Config\Config.csproj" />
     <ProjectReference Include="..\DAL Contracts\DALContracts.csproj" />
-    <ProjectReference Include="..\InfraDAL\InfraDAL.csproj" />
     <ProjectReference Include="..\ProjectContracts\ProjectContracts.csproj" />
-    <ProjectReference Include="..\UserServiceImpl\UserServiceImpl.csproj" />
+    <ProjectReference Include="..\ProjectDTO\ProjectDTO.csproj" />
   </ItemGroup>
-
 
 </Project>

@@ -12,6 +12,7 @@ namespace InfraDAL
         public DAL(IOptions<ConfigOptions> i_Settings)
         {
             m_ConnetionString = i_Settings.Value.ConnectionString;
+            //m_ConnetionString = "Server =LiorLaptop\\SQLEXPRESS; DataBase = FindMyFlorist; Trusted_Connection = True;";
         }
         private SqlCommand getCommand(string i_SpName, params IParameter[] i_Parameters)
         {
